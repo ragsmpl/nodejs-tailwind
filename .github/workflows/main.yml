@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: node:14.16
-      options: --user 1001:121
+      options: --user 1001:1001
 
     steps:
     - uses: actions/checkout@v3
