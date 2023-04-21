@@ -24,6 +24,8 @@ jobs:
       with:
         node-version: 16
         cache: 'npm'
+    - run: ls -ltr
+    - run: pwd
     - run: npm ci
     - run: npm run tailwind:css
     - run: npm test
